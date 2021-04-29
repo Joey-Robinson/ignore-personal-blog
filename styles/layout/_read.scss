@@ -1,0 +1,22 @@
+.read {
+  display: grid;
+  color: white;
+  grid-template-columns: 15vw 3fr 15vw;
+  article {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  p {
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 7rem;
+    text-align: center;
+  }
+  img {
+    margin: 1.5rem 0;
+  }
+}

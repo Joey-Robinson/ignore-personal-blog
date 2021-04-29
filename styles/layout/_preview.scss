@@ -1,0 +1,25 @@
+.preview {
+  // display: none;
+  margin: 1rem 0;
+  display: grid;
+  grid-template-rows: 3rem 2rem auto 3.5rem auto;
+  width: 800px;
+  h2 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  &--date {
+    grid-row: 2;
+    align-self: start;
+  }
+  &--image {
+    grid-row: 3;
+    justify-self: center;
+  }
+  &--excerpt {
+    font-size: 20px;
+  }
+  &--tags {
+    font-size: 18px;
+  }
+}
