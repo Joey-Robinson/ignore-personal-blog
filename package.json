@@ -16,5 +16,10 @@
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "sass": "^1.32.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2"
   }
 }
